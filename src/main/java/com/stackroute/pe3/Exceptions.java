@@ -9,13 +9,13 @@ public class Exceptions {
     public static void main (String[] args)
     {
 
-        int[] arr = new int[4];
+        int[] array = new int[4];
         try
         {
-            int i = arr[4];
-            String name=null;
-            int length=name.length();
-            int[] array=new int[-7];
+            int i = array[5];
+            String s=null;
+            int length=s.length();
+            int[] negative=new int[-7];
 
             System.out.println("Inside try block");
         }

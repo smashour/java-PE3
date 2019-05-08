@@ -7,10 +7,10 @@
 package com.stackroute.pe3;
 import javax.naming.LimitExceededException;
 
-public class ExceptionClass {
+public class CatchException {
     private static String name="Sherin";
 
-    public ExceptionClass(String name) {
+    public CatchException(String name) {
         this.name = name;
     }
 
@@ -22,7 +22,7 @@ public class ExceptionClass {
 
     public static void main(String[] args) {
         try{
-            ExceptionClass ex=new ExceptionClass(name);
+            CatchException ex=new CatchException(name);
             int length=ex.getLength();
 
 
