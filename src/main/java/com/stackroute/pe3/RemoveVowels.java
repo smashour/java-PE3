@@ -16,7 +16,7 @@ public class RemoveVowels {
         for (int i = 0; i<=words; i++) {
             strArray1[i] = input.nextLine(); //scanning letters into an array
 
-            str = strArray1[i].replaceAll("[aeiou]", "");
+            str = strArray1[i].replaceAll("[aeiouAEIOU]", "");
             System.out.println(str);
         }
 
