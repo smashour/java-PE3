@@ -72,6 +72,9 @@ b. Catch the exception inside a catch clause and print the ​ String​ argumen
 c. Add a finally clause and print a message to prove you were there.
 
 
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
 8. Write a program that will generate ​ exceptions​ of type NegativeArraySizeException,
 IndexOutOfBoundsException, NullPointerException. Record the catching of each exception by
 displaying the message stored in the exception object.
